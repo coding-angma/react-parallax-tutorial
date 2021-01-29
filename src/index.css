@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  min-height: 4000px;
+}
+
+.wrapper div,
+.wrapper p {
+  position: relative;
+  z-index: 2;
+}
+
+.item {
+  position: absolute;
+  top: 1600px;
+  right: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.item_snow {
+  left: 100px;
+  right: auto;
+  width: 200px;
+  opacity: 1;
+}
+
+.bg {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg div {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 40px 120px;
+  font-size: 50px;
+}
+
+.bg1 {
+  background: url(./images/bg1.webp) no-repeat;
+}
+
+.bg2 {
+  margin-top: 50px;
+  background: url(./images/bg2.webp) no-repeat;
+}
+
+.desc {
+  font-weight: bold;
+  font-size: 80px;
+  color: tomato;
+  left: 50%;
+}
+
+.desc2 {
+  font-weight: bold;
+  font-size: 60px;
+  color: rgb(70, 70, 223);
+  right: 50%;
+}
+
+.desc3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  color: #666;
+  opacity: 1;
+}
